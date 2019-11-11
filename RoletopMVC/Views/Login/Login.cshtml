@@ -1,5 +1,5 @@
  <main>
- <form name="formteste" action="home2.html" method="GET">
+ <form name="formteste" action='Url.Action("Login", "Cliente")' method="Post">
                 <h1>Login</h1>
 
                 <div class="email">
@@ -13,6 +13,10 @@
                 <div class="entrar">
                     <input type="submit" name="entrar" value="Entrar">
                 </div>
+
+                <div id="link-cadastro">
+                <a href='@Url.Action("Home", "Cadastro")'>Quero me cadastrar!</a>
+            </div>
                 
             </form>
 
