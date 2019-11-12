@@ -78,6 +78,7 @@ input, textarea{
 .voltar-ao-topo{
     text-align: center;
     background-color: #7d0093;
+    margin-top: 27.1em;
     justify-content: flex-end;
 }
 
@@ -93,27 +94,33 @@ input{
 #bt-mobile-menu{
     display: none;
 }
-@media (max-width: 600px) {
-   .input, textarea{
-       font-size: 1em;
-       margin: 1em;
-       flex-direction: column;
-       width: 10em;
-   }
-
-@media (max-width: 600px) {
-   .nav {
-       font-size: 1em;
-       padding: 3em 0 0 0;
-       
-   }
-}
 
 input, textarea{
     width: 22em;
-    height: 2.6em;
+    height: 1em;
 }
 
+#link-cadastro
+{
+    display: flex;
+    justify-content: center;
+    
+}
+        @media (max-width: 600px) {
+           .input, textarea{
+               font-size: 1em;
+               margin: 1em;
+               flex-direction: column;
+               width: 10em;
+           }
+        
+        @media (max-width: 600px) {
+           .nav {
+               font-size: 1em;
+               padding: 3em 0 0 0;
+               
+           }
+        }
 @media (max-width: 600px) {
    .logo-area > img {
     position: relative;
@@ -136,5 +143,6 @@ input, textarea{
        display:flex;
        flex-direction: column;
    }
+
 }
 }

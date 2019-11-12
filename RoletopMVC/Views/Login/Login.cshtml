@@ -1,5 +1,5 @@
  <main>
- <form name="formteste" action='Url.Action("Login", "Cliente")' method="Post">
+ <form name="formteste" action='Url.Action("Login", "Cliente")' method="POST">
                 <h1>Login</h1>
 
                 <div class="email">
@@ -14,12 +14,14 @@
                     <input type="submit" name="entrar" value="Entrar">
                 </div>
 
-                <div id="link-cadastro">
-                <a href='@Url.Action("Home", "Cadastro")'>Quero me cadastrar!</a>
+                
             </div>
                 
             </form>
 
             <p>Fique tranquilo, nosso site é seguro!!</p>
-        <p>Não possui uma conta?? <a href="Cadastro.html">Criar uma conta!</a></p>
+        <p>Não possui uma conta??</p> 
+                <div id="link-cadastro">
+                <a href='@Url.Action("Cadastro", "Cadastro")'>Quero me cadastrar!</a>
+                </div>
         </main>
