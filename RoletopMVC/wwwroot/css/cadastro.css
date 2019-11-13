@@ -61,7 +61,7 @@ input, textarea{
 }
 
 .criar input{
-    background: #32CD32;
+    background-color: #32CD32;
     height: 2.9em;
     width: 11em;
     font-weight: bold;
@@ -71,7 +71,7 @@ input, textarea{
 }
 
 .criar input:hover{
-    background: #00FF00;
+    background-color: #00FF00;
 }
 /* 
 textarea{
@@ -150,3 +150,4 @@ p{
         flex-direction: column;
     }
  }
+}
